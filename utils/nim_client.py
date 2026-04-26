@@ -28,3 +28,4 @@ def call_nim(system_prompt: str, user_prompt: str, max_tokens: int = 1024) -> st
         temperature=0.2,
     )
     return response.choices[0].message.content.strip()
+    
