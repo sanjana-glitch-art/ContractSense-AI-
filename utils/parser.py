@@ -43,3 +43,4 @@ def chunk_into_clauses(text: str) -> list[str]:
     chunks = re.split(pattern, text)
     cleaned = [c.strip() for c in chunks if len(c.strip()) > 80]
     return cleaned
+    
